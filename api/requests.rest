@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+  "text": "Take the dogs out"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63b34bd09793bb4506e27264
+
+###
+
+PUT http://localhost:3001/todo/complete/63b6ef347926d520a5410beb
